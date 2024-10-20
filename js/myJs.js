@@ -105,19 +105,10 @@ $(document).ready(function () {
     audio.play();
     Swal.fire({
       title: 'Thank you for everything',
-      html: 'Bạn đã nhận được chiến lệnh<br><br>Này thông báo thôi còn nhận hôm thứ 7 rồi, sợ chậm fuba tự mua nữa =)))',
+      html: 'Bạn đã nhận được chiến lệnh. 20/10 Vui vẻ !!!<br><br>Này thông báo thôi còn nhận hôm thứ 7 rồi, sợ chậm fuba tự mua nữa =)))',
       width: 900,
       background: '#fff url("img/iput-bg.jpg")',
     }).then((result) => {
-    });
-
-    $("#txtReason").focus(function () {
-      var handleWriteText = setInterval(function () {
-        textGenerate();
-      }, 10);
-      $("#txtReason").blur(function () {
-        clearInterval(handleWriteText);
-      });
     });
   });
 });
