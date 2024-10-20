@@ -32,9 +32,13 @@ $(document).ready(function () {
       imageUrl: "img/cuteCat.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: 'radial-gradient(ellipse at left, #FFC6C6, transparent), radial-gradient(ellipse at right, #F0A8D0, transparent)',
       imageAlt: "Custom image",
+      confirmButtonColor: "#433878",
+      confirmButtonText: "Continue...",
     }).then(function () {
+      var audio = new Audio('sound/sound.mp3');
+      audio.play();
       $(".content").show(200);
     });
   }

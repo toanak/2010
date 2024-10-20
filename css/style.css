@@ -8,6 +8,8 @@
     left: 35%; 
     top: 40vh;
     -webkit-transition: all 0.1s ease-out;
+    background-color: #D91656;
+    color: azure;
   }
   #yes{
     position: absolute;
@@ -15,6 +17,8 @@
     left: 70%; 
     top: 40vh;
     -webkit-transition: all 0.3s ease-out;
+    background-color: #EE66A6;
+    color: azure;
   }
 #bg{
   position: fixed;
@@ -42,6 +46,7 @@ header h2 {
   color: #E6A4B4;
   text-align: center;
 	margin-bottom: 30px;
+  font-size: 45px;
 }
 header h3 {
   font-weight: 400;
